@@ -1,4 +1,3 @@
--- 此文件为示例文件，用户请勿修改，如需自定义快捷键，请修改 shortcut.lua 文件，如不存在 shortcut.lua 文件，则执行命令 cp shortcut.lua.example shortcut.lua 创建一份即可
 -- 快捷键配置版本号
 shortcut_config = {
     version = 1.0
@@ -79,6 +78,10 @@ applications = {
     { prefix = { "Option" }, key = "v", message = "VSCode", bundleId = "com.microsoft.VSCode" },
     { prefix = { "Option" }, key = "f", message = "Finder", bundleId = "com.apple.finder" },
     { prefix = { "Option" }, key = "c", message = "Chrome", bundleId = "com.google.Chrome" },
-    { prefix = { "Option" }, key = "j", message = "IntelliJ IDEA", bundleId = "com.jetbrains.intellij" },
+    { prefix = { "Option" }, key = "i", message = "IntelliJ IDEA", bundleId = "com.jetbrains.intellij" },
     { prefix = { "Option" }, key = "t", message = "iTerm2", bundleId = "com.googlecode.iterm2" },
+    { prefix = { "Option" }, key = "p", message = "Pycharm", bundleId = "com.jetbrains.pycharm" },
+    { prefix = { "Option" }, key = "z", message = "Zotero", bundleId = "org.zotero.zotero" },
+    { prefix = { "Option" }, key = "d", message = "Dash", bundleId = "com.kapeli.dashdoc" },
+    { prefix = { "Option" }, key = "m", message = "Music", bundleId = "com.apple.Music" },
 }
