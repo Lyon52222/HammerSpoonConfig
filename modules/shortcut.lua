@@ -1,3 +1,4 @@
+-- 此文件为示例文件，用户请勿修改，如需自定义快捷键，请修改 shortcut.lua 文件，如不存在 shortcut.lua 文件，则执行命令 cp shortcut.lua.example shortcut.lua 创建一份即可
 -- 快捷键配置版本号
 shortcut_config = {
     version = 1.0
