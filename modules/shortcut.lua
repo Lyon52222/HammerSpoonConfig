@@ -79,10 +79,12 @@ applications = {
     { prefix = { "Option" }, key = "v", message = "VSCode", bundleId = "com.microsoft.VSCode" },
     { prefix = { "Option" }, key = "f", message = "Finder", bundleId = "com.apple.finder" },
     { prefix = { "Option" }, key = "c", message = "Chrome", bundleId = "com.google.Chrome" },
-    { prefix = { "Option" }, key = "i", message = "IntelliJ IDEA", bundleId = "com.jetbrains.intellij" },
+    -- { prefix = { "Option" }, key = "i", message = "IntelliJ IDEA", bundleId = "com.jetbrains.intellij" },
+    { prefix = { "Option" }, key = "i", message = "IINA", bundleId = "com.colliderli.iina" },
     { prefix = { "Option" }, key = "t", message = "iTerm2", bundleId = "com.googlecode.iterm2" },
     { prefix = { "Option" }, key = "p", message = "Pycharm", bundleId = "com.jetbrains.pycharm" },
     { prefix = { "Option" }, key = "z", message = "Zotero", bundleId = "org.zotero.zotero" },
     { prefix = { "Option" }, key = "d", message = "Dash", bundleId = "com.kapeli.dashdoc" },
     { prefix = { "Option" }, key = "m", message = "Music", bundleId = "com.apple.Music" },
+    { prefix = { "Option" }, key = "o", message = "Obsidian", bundleId = "md.obsidian" },
 }
