@@ -73,6 +73,7 @@ windows = {
 }
 
 -- 应用切换快捷键配置
+-- 使用：osascript -e 'id of app "Skim"' 来查询APP对应的bundleId
 applications = {
     { prefix = { "Option" }, key = "q", message = "QQ", bundleId = "com.tencent.qq" },
     { prefix = { "Option" }, key = "w", message = "WeChat", bundleId = "com.tencent.xinWeChat" },
@@ -87,4 +88,5 @@ applications = {
     { prefix = { "Option" }, key = "d", message = "Dash", bundleId = "com.kapeli.dashdoc" },
     { prefix = { "Option" }, key = "m", message = "Music", bundleId = "com.apple.Music" },
     { prefix = { "Option" }, key = "o", message = "Obsidian", bundleId = "md.obsidian" },
+    { prefix = { "Option" }, key = "s", message = "Skim", bundleId = "net.sourceforge.skim-app.skim" },
 }
